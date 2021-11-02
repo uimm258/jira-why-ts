@@ -8,9 +8,9 @@ export const SearchPanel = ({users, param, setParam}) => {
                 ...param,
                 name: e.target.value
             })}/>
-            <select value={param.personId} onChange={(e) => setParam({
+            <select value={param.personalId} onChange={(e) => setParam({
                 ...param,
-                personId: e.target.value
+                personalId: e.target.value
             })}>
                 <option value={''}>Manager</option>
                 {
